@@ -8,10 +8,10 @@ from io import BytesIO
 from collections import OrderedDict
 
 st.set_page_config(
-    page_title=&quot;MTK Dram Compare V01&quot;,
-    page_icon=&quot;:bar_chart:&quot;,
-    layout=&quot;wide&quot;,
-    initial_sidebar_state=&quot;expanded&quot;
+    page_title="MTK Dram Compare V01",
+    page_icon=":bar_chart:",
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 @st.cache_data
