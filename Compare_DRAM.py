@@ -2,8 +2,9 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from io import BytesIO
+import plotly
 import plotly.graph_objects as go
+from io import BytesIO
 from collections import OrderedDict
 
 st.set_page_config(layout="wide")
